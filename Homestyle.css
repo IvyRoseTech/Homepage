@@ -1,0 +1,491 @@
+.Headder{
+    background-image: url(./images/city1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head1{
+    padding-top: 15px;
+    height: auto;
+    width: 100%;
+}
+.header{
+    background-color: black;
+    opacity: 0.8;
+    height: 500px;
+    height: auto;
+    width: 100%;
+}
+.head1 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 0rem 0rem 0rem 0rem;
+}
+.head1 ul li a{
+    text-decoration: none;
+    margin: 0.5rem 2.5rem;
+    color: white;
+}
+.head1 ul li a img{
+    width: 20px;
+    height: 20px;
+}
+.head1 ul li a img:hover{
+    transform: translate(10px);
+    transition: 0.9s all linear;
+    background-color: white;
+}
+nav{
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    width: 90%;
+    height: 45px;
+    border-radius: 50px 50px 50px 50px;
+    margin: 2rem 5rem 0rem 5rem;
+}
+.nav-menu{
+    transition: all 0.5s;
+    max-width: 100%;
+    height: auto;
+}
+.nav-menu ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.nav-menu ul li{
+    margin: 1.5rem 1.5rem;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s;
+    padding-left: 10px;
+}
+.nav-menu .class-list .class1{
+    color: white;
+}
+.nav-menu ul span{
+    color: #ffa500;
+    font-size: 20px;
+    padding-left: 240px;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+}
+.nav-menu ul li a:hover{
+    color: black;
+}
+nav{
+    background: linear-gradient(to right, #ffa600 80%, rgb(0, 0, 0) 20%);
+    
+}
+.header .title h1{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 8rem;
+}
+.header .title h4{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    font-weight: normal;
+    flex-direction: column;
+    padding-left: 20px;
+    transform: translate(-5px, -20px);
+    margin-top: -3rem;
+    font-weight: normal;
+}
+.header button a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+.header .button{
+    text-align: center;
+    margin-top: -8rem;
+}
+.headcar img{
+    margin-right: 400px;
+}
+.Sec1{
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem, auto));
+    align-items: center;
+    gap: 2rem;
+    background-size: cover;
+    background-color: rgb(216, 161, 51);
+}
+.Map{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -120px;
+}
+.Map h1{
+    color: black;
+    font-family: 900;
+}
+iframe{
+    width: 80%;
+    height: 300px;
+    filter: invert(100%);
+    margin-bottom: 50px;
+    box-shadow: 1px 2px 11px 4px rgb(255, 255, 255);
+}
+.map1{
+    margin-top: 55px;
+}
+.Sec1-text{
+    margin-top: -50px;
+    color: black;
+}
+.Sec1-text h2{
+    font-size: 25px;
+    margin-left: 80px;
+}
+.Sec1-text span{
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 2rem 5rem 0rem 5rem;
+    font-size: 30px;
+}
+.Sec1-text p{
+    margin: 0.5rem 0 1rem;
+    margin: 2rem 5rem 0rem 5rem;
+    font-size: 20px;
+}
+.Sec1 button a{
+    text-decoration: none;
+    color: #ffa500;
+    font-weight: bolder;
+}
+.Sec1 button{
+    border-radius:25px 25px;
+    margin-top: 0.5rem;
+    height: 40px;
+    width: 150px;
+}
+.Sec1 button:hover{
+    background-color: black;
+}
+.Sec1 img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+    padding-left: 20px;
+}
+.carssection h1{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.carssection h1 span{
+    color: #fda500;
+    font-size: 25px;
+}
+.cars{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    gap: 4rem;
+    cursor: pointer;
+    background-color: white;
+    height: 400px;
+}
+.cars .box{
+    padding: 20px;
+    box-shadow: 5px 8px 12px 12px rgb(14 55 54 / 15%);
+    border-radius: 0.5rem;
+}
+.cars .box:hover{
+    background-color: rgb(216, 161, 51);
+}
+.cars .box1{
+    padding: 20px;
+    box-shadow: 3px 4px 13px 6px rgb(14 55 54 / 15%);
+    border-radius: 0.5rem;
+    background-color: rgb(216, 161, 51);
+}
+.cars .box1:hover{
+    background-color: rgb(245, 243, 239);
+}
+.cars .box img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+    box-shadow: 1px 2px 11px 4px rgba(0, 0, 0, 0.15);
+}
+.cars .box img:hover{
+    transform: translate(10px);
+    transition: 0.8s all linear; 
+}
+.cars .box1 img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+    box-shadow: 1px 2px 11px 4px rgba(0, 0, 0, 0.15);
+}
+.cars .box1 img:hover{
+    transform: translate(10px);
+    transition: 0.8s all linear; 
+}
+.cars .box span{
+    font-weight: 500;
+    font-size: 13px;
+}
+.cars .box1 span{
+    font-weight: 500;
+    font-size: 13px;
+}
+.cars .box h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+    font-weight: bolder;
+}
+.cars .box1 h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+    font-weight: bolder;
+}
+.cars .box p{
+    color: black;
+}
+.cars .box1 p{
+    color: black;
+}
+.cars .box .bx-cart-alt{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 0.5rem 0 0.5rem 0;
+}
+.cars .box a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+.cars .box1 a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+.cars .box button{
+    background-color: #fda500;
+    border-radius:25px 25px;
+    height: 30px;
+    width: 100px;
+}
+.cars .box1 button{
+    background-color: white;
+    border-radius:25px 25px;
+    height: 30px;
+    width: 100px;
+}
+.cars .box button:hover{
+    background-color: white;
+}
+.cars .box1 button:hover{
+    background-color: wheat;
+}
+.Sec2-text .Info{
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+    gap: 5rem;
+    padding-right: 2px;
+}
+.Info img{
+    width: 25px;
+    height: 25px;
+    margin-bottom: -2rem;
+    padding: 12px 20px;
+}
+.Info p{
+    color: white;
+    padding: 12px 50px;
+    margin: 8px 0;
+}
+.Sec2-text h3{
+    color: #ffa500;
+    padding: 12px 50px;
+    margin: 8px 0;
+    margin-bottom: -1.5rem;
+}
+.Sec2-text span{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffa500;
+    font-size: 23px;
+    padding-top: 10px;
+}
+.Sec2-text h4{
+    text-align: center;
+    justify-content: center;
+    margin-top: -0.012rem;
+    color: white; 
+}
+.Sec2-text{
+    background-color: rgb(39, 34, 34);
+    background-size: cover;
+    opacity: 0.8;
+}
+.Sec2-info{
+    background-image: url(./images/stop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Customers{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -34px;
+    background-image: url(./images/happy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Customers .cus1{
+    background-color: rgb(39, 34, 34);
+    background-size: cover;
+    opacity: 0.8;
+}
+.Customers h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Customers-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px, auto));
+    gap: 3rem;
+    margin-top: 2rem;
+}
+.Customers-container .box{
+    padding: 20px;
+    box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%);
+    border-radius: 0.3rem;
+    border-bottom: 15px solid #ffa500;
+    background-color: white;
+}
+.Customers-container .box:hover{
+    transform: translate(10px);
+    transition: 0.2s all linear; 
+}
+.review-profile{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    column-gap: 0.5rem;
+}
+.review-profile img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.review-profile h3{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.Footer{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    background-color: rgb(255, 233, 188);
+    border-radius: 0.5rem;
+    padding: 20px;
+}
+.Footer-box{
+    display: flex;
+    flex-direction: column;
+}
+.Footer-box p{
+    font-size: 0.938rem;
+    margin: 0.5rem 0 1rem;
+    text-decoration: none;
+}
+.Social{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+.Social .bx{
+    padding: 10px;
+    border-radius: 5rem;
+    font-size: 20px;
+}
+.Social .bx:hover{
+    transition: 0.2s all linear;
+}
+.Footer-box h2{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.Footer-box a{
+    color: #868a92;
+    margin-bottom: 1rem;
+}
+.Footer-box a:hover{
+    color: black;
+}
+.Footer-box form{
+    border-bottom: 2px solid #fda400;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+.Footer-box form input{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.Footer-box form .bx{
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+}
+.Footer-box form .bxs-envelope{
+    color: red;
+}
+.copyright{
+    text-align: center;
+    padding: 20px;
+    margin-top: -25px;
+}
